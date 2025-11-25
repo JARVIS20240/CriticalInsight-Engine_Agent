@@ -11,6 +11,8 @@ The CriticalInsight Engine automatically scans legal documents, splits them into
 
 It also creates a Critical-Risk Summary so you jump straight to the serious issues without digging through the entire document.
 
+
+
 ⭐ Key Features
 
 📄 Reads PDF, DOCX, TXT
@@ -27,6 +29,8 @@ It also creates a Critical-Risk Summary so you jump straight to the serious issu
 
 💻 Works in any Python environment or Google Colab
 
+
+
 🛠️ Tech Stack
 
 🐍 Python 3.10+
@@ -39,15 +43,18 @@ It also creates a Critical-Risk Summary so you jump straight to the serious issu
 
 ☁️ Google Colab (optional)
 
+
+
 📦 Installation
-pip install python-docx PyPDF2 pandas openai
+        pip install python-docx PyPDF2 pandas openai
+
+
 
 🔑 Setup Your API Key
 
-Get your OpenRouter key:
-https://openrouter.ai/
+Get your OpenRouter key: https://openrouter.ai/
 
-os.environ["OPENAI_API_KEY"] = "YOUR_KEY"
+        os.environ["OPENAI_API_KEY"] = "YOUR_KEY"
 
 ⚙️ How It Works
 1️⃣ Upload a file
@@ -55,6 +62,7 @@ os.environ["OPENAI_API_KEY"] = "YOUR_KEY"
 Upload a PDF, DOCX, or TXT file when prompted.
 
 2️⃣ Automatic AI processing
+
 
 The script:
 
@@ -83,6 +91,8 @@ EXPLANATION: The vendor must complete the work in 30 days.
 RISK: The timeline is strict, and undefined penalties may cause disputes.  
 ACTION: Add specific consequences or penalty terms for delay.
 
+
+
 📁 Project Structure
 CriticalInsight_Engine.ipynb  
 │  
@@ -92,6 +102,8 @@ CriticalInsight_Engine.ipynb
 ├── Risk Filtering Engine  
 └── Dataframe Output Generator  
 
+
+
 🧰 Models & Tools Used
 
 Gemma-2-9B-IT (Google DeepMind)
@@ -99,6 +111,9 @@ https://ai.google.dev/gemma
 
 OpenRouter API
 https://openrouter.ai/docs
+
+
+
 
 ⚠️ Limitations
 
@@ -119,6 +134,8 @@ https://openrouter.ai/docs
 📚 Multi-document batch analysis
 
 📊 Severity scoring system
+
+
 
 📜 License
 
