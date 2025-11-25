@@ -20,7 +20,7 @@ import docx
 import textwrap
 
 # Put your OpenRouter key here (single key for all models)
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "API_KEY"
 
 # Initialize client (OpenRouter)
 client = OpenAI(base_url="https://openrouter.ai/api/v1",
